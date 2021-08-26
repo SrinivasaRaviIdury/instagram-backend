@@ -1,0 +1,30 @@
+{
+  "name": "instagram-backend",
+  "version": "1.0.0",
+  "description": "instagram app with MERN",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raviaahlad/instagram-backend.git"
+  },
+  "keywords": [
+    "instagram-backend"
+  ],
+  "author": "ravi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raviaahlad/instagram-backend/issues"
+  },
+  "homepage": "https://github.com/raviaahlad/instagram-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "pusher": "^5.0.0"
+  }
+}
